@@ -25,12 +25,14 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 		employee.setFirstname("Rushikesh");
 		employee.setLastname("Sarode");
 		employee.setEmailid("rushikeshsarode30@gmail.com");
+		employee.setDepartment_no("12");
 		employeeRepository.save(employee);
 
 		Employee employee1 = new Employee();
 		employee1.setFirstname("Asshutosh");
 		employee1.setLastname("Sarode");
 		employee1.setEmailid("aashutoshsarode01@gmail.com");
+		employee1.setDepartment_no("13");
 		employeeRepository.save(employee1);
 
 
