@@ -30,7 +30,10 @@ public class Employee {
     @Column(name="email_id")
     private String emailid;
 
-   
+    @Column(name = "department_no")
+    private String department_no;
+
+
 
 
 }
